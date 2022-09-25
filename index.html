@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Memory Game</h1>
+    <h3>Moves : <span id="total-moves"></span></h3>
+    <div class="container">
+        <p id="moves">Moves : <span id="moves-count">0</span></p>
+        <p id="timer">Time : <span id="timer-count">00:00</span></p>
+
+        <div class="game">
+            <button class="card" id="card-1">?</button>
+            <button class="card" id="card-2">?</button>
+            <button class="card" id="card-3">?</button>
+            <button class="card" id="card-4">?</button>
+            <button class="card" id="card-5">?</button>
+            <button class="card" id="card-6">?</button>
+            <button class="card" id="card-7">?</button>
+            <button class="card" id="card-8">?</button>
+            <button class="card" id="card-9">?</button>
+            <button class="card" id="card-10">?</button>
+            <button class="card" id="card-11">?</button>
+            <button class="card" id="card-12">?</button>
+            <button class="card" id="card-13">?</button>
+            <button class="card" id="card-14">?</button>
+            <button class="card" id="card-15">?</button>
+            <button class="card" id="card-16">?</button>
+        </div>
+        <div>
+            <button class="extra-button" id="stop-button">Stop Game</button>
+        </div>
+    </div>
+    <button class="extra-button" id="start-button">Start Game</button>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" 
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
